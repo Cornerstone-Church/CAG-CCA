@@ -1,0 +1,17 @@
+footer {
+    display: block;
+    width: 100%;
+    padding: 40px 0px;
+    text-align: center;
+    background-color: var(--theme-header-color-dark);
+    color: var(--theme-primary-color);
+}
+
+img {
+    height: 60px;
+}
+
+#footer-copy {
+    padding: 10px;
+    font-size: 14px;
+}

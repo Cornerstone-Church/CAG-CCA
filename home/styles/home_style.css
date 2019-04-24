@@ -1,0 +1,39 @@
+#home-banner {
+    width: 100%;
+}
+
+#home-banner .text {
+    margin: 30vh 0px;
+    width: 100%;
+    color: var(--theme-primary-color);
+
+    text-align: center;
+
+    background: rgba(41, 46, 51, .6);
+    padding: 20px 0px;
+}
+
+#home-banner .text {
+    font-size: 40px;
+}
+
+#home-content {
+    margin: 100px auto;
+    background: var(--theme-primary-color);
+    height: auto;
+    width: 600px;
+
+    text-align: center;
+    padding: 60px;
+}
+
+html, body {
+    background-image: url('/ref/banners/school_banner.jpg') !important;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+section {
+    background: none !important;
+}
