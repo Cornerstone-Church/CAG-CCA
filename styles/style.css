@@ -17,13 +17,13 @@ You have been warned..... :-0 */
 
     /* Default values for page if mode is not specified */
     --theme-primary-color: #ecf0f1;
-    --theme-secondary-color: #292e33;
+    --theme-secondary-color: #c0392b;
     --theme-secondary-color--rgb: 52, 73, 94;
     --theme-background-color: var(--theme-primary-color);
     --theme-header-color-dark: var(--theme-secondary-color);
     --theme-subheader-color-light: rgba(220, 220, 220, 0.8);
     --theme-activation-color: #3498db;
-    --theme-text-color: var(--theme-secondary-color);
+    --theme-text-color: #292e33;
     --theme-text-hover: #aaa;
     --theme-nav-text: var(--theme-primary-color);
     --theme-nav-text-hover: #969696;
