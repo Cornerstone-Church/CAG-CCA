@@ -7,7 +7,7 @@ You have been warned..... :-0 */
 /* Imports */
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC');
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i|IBM+Plex+Sans+Condensed:400,400i|IBM+Plex+Sans:100,100i,400,400i,700,700i|IBM+Plex+Serif:400,400i');
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
 
 @import url('header.css');
 @import url('footer.css');
@@ -17,19 +17,17 @@ You have been warned..... :-0 */
 
     /* Default values for page if mode is not specified */
     --theme-primary-color: #ecf0f1;
-    --theme-secondary-color: #c0392b;
+    --theme-secondary-color: #3D3E3F;
     --theme-secondary-color--rgb: 52, 73, 94;
     --theme-background-color: var(--theme-primary-color);
-    --theme-header-color-dark: var(--theme-secondary-color);
+    --theme-header-color--rgb: 236,240,241;
     --theme-subheader-color-light: rgba(220, 220, 220, 0.8);
     --theme-activation-color: #3498db;
     --theme-text-color: #292e33;
     --theme-text-hover: #aaa;
-    --theme-nav-text: var(--theme-primary-color);
+    --theme-nav-text: var(--theme-secondary-color);
     --theme-nav-text-hover: #969696;
     --theme-text-subheader: #7f8c8d;
-
-    --header-height: 70px;
     --header-second-bar--height: 30px;
 }
 
@@ -89,7 +87,7 @@ section {
 .content {
     display: block;
     width: var(--global-content-width);
-    margin: 20px auto;
+    margin: 70px auto;
     padding: 10px;
 }
 

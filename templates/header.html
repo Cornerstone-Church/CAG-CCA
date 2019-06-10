@@ -1,26 +1,98 @@
 <header>
-    <main class="header-content">
+    <img id="nav-icon" src="/ref/logos/CCA_Icon_Shield.png">
+    <div id="nav-wrapper">
         <nav>
             <ul>
-                <li>
+                <li id="home-button">
                     <a href="/">Home</a>
                 </li>
-                <li>
-                    <a href="/about/">About</a>
+                <li id="introduction-button">
+                    <a href="/introduction/">An Introduction</a>
                 </li>
-                <li>
-                    <a href="/practicums/">Practicums</a>
+                <li id="admissions-button">
+                    <a href="/admissions/">Admissions</a>
                 </li>
-                <li>
-                    <a href="/academics/">Academics</a>
+                <li id="header-space">
+
                 </li>
-                <li>
-                    <a href="/finances/">Finances</a>
+                <li id="parent-button">
+                    <a href="/parent/">Parent Resources</a>
                 </li>
-                <li>
-                    <a title="SAGU WEBSITE" href="#SAGU">Apply</a>
+                <li id="student-button">
+                    <a href="/student/">Student Resources</a>
                 </li>
             </ul>
         </nav>
-    </main>
+    </div>
+    <!-- Dropdown menu -->
+    <div id="dropdown-wrapper">
+        <!-- Introduction -->
+        <div class="drop-menu" id="introduction-dropdown">
+            <img class="drop-image" src="/ref/icons/hello-logo-stone.png">
+            <ul>
+                <li>
+                    <a href="/introduction/mission/">Mission & Vision Statements</a>
+                </li>
+                <li>
+                    <a href="/introduction/statement/">Statement of Purpose</a>
+                </li>
+                <li>
+                    <a href="/introduction/principal/">Principal's Corner</a>
+                </li>
+                <li>
+                    <a href="/introduction/community/">Community</a>
+                </li>
+            </ul>
+        </div>
+        <!-- Admissions -->
+        <div class="drop-menu" id="admissions-dropdown">
+            <img class="drop-image" src="/ref/icons/admissions-icon.png">
+            <ul>
+                <li>
+                    <a href="/admissions/openhouse/">Open House Dates</a>
+                </li>
+                <li>
+                    <a href="/admissions/enrollment/">Enrollment Procedures</a>
+                </li>
+                <li>
+                    <a href="/admissions/tuition/">Tuition & Before/After Care</a>
+                </li>
+                <li>
+                    <a href="/admissions/policies/">Policies & Procedures</a>
+                </li>
+            </ul>
+        </div>
+        <!-- Parent Resources -->
+        <div class="drop-menu" id="parent-dropdown">
+            <img class="drop-image" src="/ref/icons/parents-icon.png">
+            <ul>
+                <li>
+                    <a href="#">RENWEB</a>
+                </li>
+                <li>
+                    <a href="#">FACTS</a>
+                </li>
+                <li>
+                    <a href="#">Lunch Order</a>
+                </li>
+                <li>
+                    <a href="#">Uniform Order</a>
+                </li>
+            </ul>
+        </div>
+        <!-- Student Resources -->
+        <div class="drop-menu" id="student-dropdown">
+            <img class="drop-image" src="/ref/icons/student-icon.png">
+            <ul>
+                <li>
+                    <a href="#">ABC Mouse</a>
+                </li>
+                <li>
+                    <a href="#">ETC.</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </header>
+
+<script src="/scripts/header-menubar.js"></script>

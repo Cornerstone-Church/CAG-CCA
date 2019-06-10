@@ -28,7 +28,7 @@
 }
 
 html, body {
-    background-image: url('/ref/banners/school_banner.jpg') !important;
+    background-image: url('/ref/pages/home/classroom.jpg') !important;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -36,4 +36,50 @@ html, body {
 
 section {
     background: none !important;
+}
+
+
+#logo-wrapper {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+
+}
+
+#logo-wrapper img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: auto;
+
+}
+
+#scripture-verse {
+    position: relative;
+    background: var(--theme-primary-color);
+    padding: 80px;
+}
+
+#scripture-verse p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    max-width: 700px;
+
+    text-align: center;
+}
+
+#content-wrapper {
+    margin: 0px;
+    padding: 10px;
+    background: var(--theme-primary-color);
+}
+
+.content {
+    margin-top: 0px;
 }
