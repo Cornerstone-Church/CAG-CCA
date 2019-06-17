@@ -12,10 +12,12 @@
 }
 
 #about-banner .text p {
+    display: inline-block;
     font-size: 18px;
     text-align: center;
 
     text-indent: 0px;
+    max-width: 800px;
 }
 
 #about-content {
@@ -33,7 +35,7 @@
 }
 
 body, html {
-    background-image: url('/ref/pages/about/background.jpg') !important;
+    background-image: url('/ref/pages/about/cca_school_dim.jpg') !important;
     background-attachment: fixed !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;

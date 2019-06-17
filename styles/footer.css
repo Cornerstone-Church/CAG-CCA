@@ -3,7 +3,7 @@ footer {
     width: 100%;
     padding: 40px 0px;
     text-align: center;
-    background-color: var(--theme-header-color-dark);
+    background-color: var(--theme-primary-color);
     color: var(--theme-secondary-color);
 }
 

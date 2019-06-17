@@ -107,6 +107,7 @@ section {
 
 #content-wrapper li {
     width: 40vw;
+    min-width: 400px;
 }
 
 .content {
