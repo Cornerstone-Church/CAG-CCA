@@ -27,24 +27,31 @@
     padding: 60px;
 }
 
-html, body {
-    background-image: url('/ref/pages/home/classroom.jpg') !important;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-
 section {
     background: none !important;
 }
 
-
-#logo-wrapper {
+#background-wrapper {
     position: relative;
     height: 100vh;
     width: 100%;
-    background: rgba(0, 0, 0, 0.5);
+}
 
+#background-wrapper .background-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    opacity: 0;
+    transition: 1s;
+}
+
+#logo-wrapper {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 #logo-wrapper img {
@@ -57,27 +64,49 @@ section {
 
 }
 
+#verse-events-wrapper {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background: var(--theme-primary-color);
+    overflow: hidden;
+}
+
 #scripture-verse {
     position: relative;
-    background: var(--theme-primary-color);
-    padding: 80px;
+    margin: 10px;
+    font-size: 25px;
+    background: #843031;
+    color: var(--theme-primary-color);
+    text-align: center;
+    transform: rotate(-10deg);
+    height: 150%;
+    width: 120%;
+    margin-top: -10%;
+    margin-left: -20%;
 }
 
 #scripture-verse p {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 22px;
-    max-width: 700px;
-
-    text-align: center;
+    top: 45%;
+    left: 55%;
+    text-indent: 0px;
+    width: 60%;
+    transform: rotate(10deg) translate(-50%, -50%);
 }
 
 #content-wrapper {
-    margin: 0px;
-    padding: 10px;
-    background: var(--theme-primary-color);
+    margin-left: 10%;
+    margin-top: 20px;
+
+    font-weight: normal;
+}
+
+#calendar-events ul {
+    list-style: circle;
+}
+
+#content-wrapper li {
+    width: 40vw;
 }
 
 .content {
