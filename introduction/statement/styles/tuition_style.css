@@ -1,0 +1,18 @@
+.tuition-table {
+    margin: 20px;
+}
+
+.tuition-table td {
+    padding: 2px 20px;
+}
+
+.astrig {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.box-text {
+    border: 2px solid var(--theme-secondary-color);
+    padding: 10px 20px;
+    margin: 40px 20px;
+}
