@@ -1,0 +1,41 @@
+.staff-group {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+}
+
+.staff-wrapper {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+
+.staff-wrapper .staff-photo {
+    height: 200px;
+    width: 200px;
+    background: black;
+
+    border-radius: 360px;
+
+    object-fit: cover;
+}
+
+.staff-wrapper .staff-description {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.staff-wrapper .staff-name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.staff-wrapper .staff-position {
+
+}
+
+.staff-wrapper .staff-contact {
+    margin-top: 10px;
+    font-style: italic;
+}
+
