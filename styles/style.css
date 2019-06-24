@@ -62,6 +62,10 @@ li {
     margin: 30px 0;
 }
 
+a {
+    color: var(--theme-primary-color);
+}
+
 /* Body Styles */
 body, html {
     font-family: 'Raleway', sans-serif;
