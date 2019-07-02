@@ -94,3 +94,18 @@ section {
 #program-overview td:last-child {
     width: 25%;
 }
+
+.ad-banner {
+    display: inline-block;
+    padding: 0px;
+    box-shadow: 0px 0px 10px black;
+    font-size: 0px;
+}
+
+.ad-banner img {
+    margin: 0px;
+    font-size: 0px;
+    padding: 0px;
+    width: 300px;
+    height: 300px;
+}
