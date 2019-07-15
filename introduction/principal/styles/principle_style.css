@@ -1,3 +1,9 @@
 p {
     text-indent: 0px;
 }
+
+.content img {
+    width: 49%;
+    height: 300px;
+    object-fit: cover;
+}

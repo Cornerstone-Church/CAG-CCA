@@ -44,6 +44,14 @@ section {
     background: none !important;
 }
 
+section a {
+    color: var(--theme-text-color);
+}
+
+section p {
+    text-indent: 0px;
+}
+
 .white-section {
     background-color: var(--theme-primary-color) !important;
 }
