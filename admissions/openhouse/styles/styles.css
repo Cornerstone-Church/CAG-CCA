@@ -1,0 +1,8 @@
+#open-house-dates {
+    margin: 50px auto;
+    text-align: center;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    border-radius: 20px;
+    border: solid var(--theme-secondary-color) 4px;
+}
