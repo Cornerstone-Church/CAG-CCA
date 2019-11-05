@@ -96,6 +96,12 @@ section {
     padding: 10px;
 }
 
+.content img {
+    display: block;
+    width: 50%;
+    height: auto;
+}
+
 .dark-background {
     background: #111;
 }
