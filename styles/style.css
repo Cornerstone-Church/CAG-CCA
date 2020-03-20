@@ -303,6 +303,11 @@ section {
     background: rgba(0, 0, 0, 0.5);
 }
 
+.quote {
+    font-style: italic;
+    text-align: center;
+}
+
 #debug {
     position: fixed;
     bottom: 0px;
