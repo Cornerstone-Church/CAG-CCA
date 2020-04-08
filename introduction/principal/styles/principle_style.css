@@ -3,6 +3,7 @@ p {
 }
 
 .content img {
+    display: inline-block;
     width: 49%;
     height: 300px;
     object-fit: cover;
